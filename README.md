@@ -1,20 +1,9 @@
-<<<<<<< HEAD
-# AiPromptTools
-AiPromptTools is a collection of tools for generating prompts for AI models.
+1. 首次运行需要配置deekseek Api-key ，输入api-key后按下设置按钮进行保存，配置完成后点击启动按钮即可正常运行，只要配置过api-key在以后的启动软件界面默认隐藏，系统托盘会有启动提示
+2. 支持自动匹配市面上90%主流大语言模型，支持Cherry Studio，ChatBox,智谱清言，豆包windows桌面程序，如遇不支持的可以自己手动配置config.py添加，主需要参考config.ini中的例子在APP_CONFIGS增加一个字典即可支持。
+3. 快捷键Alt+~键,可以跟随鼠标唤起/隐藏界面,方便快速配置软件的启停。
+4. 正常使用启动软件后按以往正常使用的习惯即可执行在输入完需求信息后按下设置的快捷键，比如DeekSeek，根据软件设置的快捷键模式，比如设置的是 shift+enter ,在输入需求信息完成后按下shift+enter,软件即自动操作浏览器或者桌面程序完成需求信息自动优化成专业的提示词的效果。
+5. 特殊指令#，输入的原始需求信息前用#号开头，就会保持原始指令直接发送给模型服务商。
 
-## Installation
-```bash
-pip install ai-prompt-tools
-pip freeze > requirements.txt
-
-
-```
-pyinstaller --onefile --windowed --icon="d:\mycode\pycode\aicode\HelpPrompt\res\EARTH.ICO" --add-data "d:\mycode\pycode\aicode\HelpPrompt\config.ini;." --add-data "d:\mycode\pycode\aicode\HelpPrompt\config.py;." --add-data "d:\mycode\pycode\aicode\HelpPrompt\res\*;res\" "d:\mycode\pycode\aicode\HelpPrompt\main.py"
-
-
-pyinstaller --onefile --windowed --icon="d:\mycode\pycode\aicode\HelpPrompt\res\EARTH.ICO" --add-data "d:\mycode\pycode\aicode\HelpPrompt\res\*;res\" "d:\mycode\pycode\aicode\HelpPrompt\main.py"
-```
-=======
-# HelpPrompt
-By using AI technology to fully automate and optimize the original requirement information submitted by users, it is converted into professional requirement prompt words, improving users' ability to obtain more professional, accurate, and efficient AI return information.
->>>>>>> 8333de07bd59df40d618c8bb096dc3d8b383cde4
+注意事项:
+1. 使用按键键转换提示词的过程中软件需要一定的计算转换时间大概5-10秒，期间请勿动鼠标，需要保存输入框中光标闪烁，否则提示词会无法写入。
+2. 切换按键模式，可能会有几率配置的按键模式无效，可重启软件解决。
